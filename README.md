@@ -21,9 +21,9 @@ To run the To-Do List App locally, follow these steps:
 
 ```bash
 git clone https://github.com/yourusername/todo-list.git
+
 Navigate to the project directory:
 bash
-Copy code
 cd todo-list
 Open the index.html file in your web browser.
 Usage
@@ -40,6 +40,25 @@ Create a new branch: git checkout -b feature.
 Make your changes and commit them: git commit -am 'Add new feature'.
 Push to the branch: git push origin feature.
 Submit a pull request.
+```
+
+## ScreenShoots
+ToDoList Scrren Shots:
+1) Main Page:
+<img width="1470" alt="Screenshot 2024-03-29 at 4 30 21 PM" src="https://github.com/zeus-anuj/ToDoListNew/assets/89330438/722e121a-5282-4bda-9b3d-a530d9cb42fb">
+
+2) Adding the task:
+<img width="1470" alt="Screenshot 2024-03-29 at 4 30 48 PM" src="https://github.com/zeus-anuj/ToDoListNew/assets/89330438/df3120cc-72b8-47e1-8857-a5aa44d0b25d">
+
+3)) Completeing the task a single line on the task name by clicking in the tick icon:
+<img width="1470" alt="Screenshot 2024-03-29 at 4 31 01 PM" src="https://github.com/zeus-anuj/ToDoListNew/assets/89330438/c85833e6-69ad-4a39-8991-f141665c8eba">
+
+4) Deleting the task using the delete icon:
+<img width="1470" alt="Screenshot 2024-03-29 at 4 31 13 PM" src="https://github.com/zeus-anuj/ToDoListNew/assets/89330438/82d6b77a-fe4b-4dd9-9b9a-99dca045b6bb">
+
+5) Diffrerent background color of the website using the buttons: 
+<img width="1470" alt="Screenshot 2024-03-29 at 4 31 22 PM" src="https://github.com/zeus-anuj/ToDoListNew/assets/89330438/061aaa5e-df8f-458f-a6bb-84518f92d936">
+<img width="1470" alt="Screenshot 2024-03-29 at 4 31 29 PM" src="https://github.com/zeus-anuj/ToDoListNew/assets/89330438/8d4e1a15-c564-42d2-84f6-44681fdcb875">
 
 
 License
