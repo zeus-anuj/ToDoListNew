@@ -1,0 +1,171 @@
+body {
+  background: linear-gradient(
+    to bottom right,
+    red,
+    yellow
+  ); /* Gradient from white to gray to black */
+  font-family: Arial, sans-serif;
+  margin: 0; /* Remove default body margin */
+  height: 91vh;
+  position: relative; /* Position buttons relative to body */
+}
+
+.bg-color-botton {
+  position: fixed; /* Position buttons absolutely */
+  top: 10px; /* Adjust top position */
+  right: 10px; /* Adjust right position */
+  display: flex; /* Use flexbox to align buttons */
+  flex-direction: row; /* Align buttons vertically */
+  align-items: flex-end; /* Align buttons to the right */
+  z-index: 9999; /* Ensure buttons are on top */
+  padding: 10px;
+}
+
+.bg-color-botton button {
+  width: 30px; /* Set width and height of buttons */
+  height: 30px;
+  border: none;
+  border-radius: 50%; /* Make buttons circular */
+  background-color: transparent; /* Remove background color */
+  cursor: pointer;
+  margin-bottom: 5px; /* Add margin between buttons */
+  margin: 5px;
+}
+
+#changeColorBtn1 {
+  background: linear-gradient(
+    to bottom right,
+    red,
+    #000000
+  ); /* Same gradient as body */
+}
+
+#changeColorBtn2 {
+  background: linear-gradient(
+    to bottom right,
+    green,
+    yellow
+  ); /* Same gradient as body */
+}
+
+#changeColorBtn3 {
+  background: linear-gradient(
+    to bottom right,
+    purple,
+    brown
+  ); /* Same gradient as body */
+}
+
+/* Define your colors */
+.color1 {
+  background: linear-gradient(
+    to bottom right,
+    red,
+    #000000
+  ); /* Same gradient as body */
+}
+
+.color2 {
+  /* Define your second color */
+  background: linear-gradient(
+    to bottom right,
+    green,
+    yellow
+  ); /* Same gradient as body */
+}
+
+.color3 {
+  /* Define your third color */
+  background: linear-gradient(
+    to bottom right,
+    purple,
+    brown
+  ); /* Same gradient as body */
+}
+
+.container {
+  max-width: 600px;
+  margin: 70px auto;
+  padding: 20px;
+  border: 1px none #ccc;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 70px;
+}
+
+.todo-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.todo-container input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px 0 0 5px;
+  border: 1px solid #ccc;
+  border-right: none;
+}
+
+.todo-container button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.delete-btn {
+  background-color: #f44336;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Add styles for tasks */
+.todo-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px; /* Add rounded corners */
+  background-color: white; /* Set background color to white */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
+  margin-bottom: 10px; /* Add margin between tasks */
+}
+
+.todo-item .task-text {
+  flex: 1;
+  margin-left: 10px;
+  font-size: 16px; /* Increase font size */
+  color: black; /* Set font color to black */
+}
+
+.todo-item i {
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.todo-item.completed .task-text {
+  text-decoration: line-through;
+  color: #888;
+}
+
+/* Add styles for date and time */
+#dateTime {
+  font-size: 18px; /* Increase font size */
+  color: white; /* Set font color to white */
+}
